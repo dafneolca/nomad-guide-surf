@@ -1,0 +1,90 @@
+.table {
+  table-layout: fixed;
+    height: 30px;
+    margin: 0 auto;
+}
+
+.table thead th {
+  border-bottom: 0px solid #dee2e6;
+}
+
+.table td, .table th {
+  padding: .75rem;
+  border-top: 0px solid #dee2e6;
+  height: 60px;
+  padding: .75rem;
+  vertical-align: top;
+  border-top: 0;
+  width: 175px;
+}
+
+.form-group{
+  padding: 10px 30px 1px 30px;
+}
+
+.form-item {
+  border-bottom:  #dee2e6 solid 0.5px;
+  padding-left: 30px;
+}
+
+.circle-progress {
+  display: flex;
+  justify-content: center;
+}
+
+.circle{
+  justify-content: center;
+}
+
+.main {
+  text-align: center;
+}
+
+.incomplete {
+  color: orange;
+}
+
+.complete {
+  color: limegreen;
+}
+
+.incomplete:hover {
+  color: orange;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.complete:hover {
+  color: limegreen;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.heading {
+  padding: 50px 0px;
+}
+
+.form-group {
+  padding: 10px 30px 1px 30px;
+}
+
+.form-item {
+  border-bottom:  #dee2e6 solid 0.5px;
+  padding-left: 30px;
+}
+
+.circle-progress {
+  display: flex;
+  justify-content: center;
+}
+
+.circle{
+  justify-content: center;
+}
+
+
+

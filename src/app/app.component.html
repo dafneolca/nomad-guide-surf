@@ -1,20 +1,77 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="main">
+  <div class="heading">
+    <h1>Status</h1>
+  </div>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Region</th>
+        <th scope="col" *ngFor="let form of formsHeader">{{form}}</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let language of generatedData; let i = index">
+        <td>{{language.name}}</td>
+        <td *ngFor="let formStatusItem of language.formStatus" [ngClass]="formStatusItem.amountPassed < 100 ?'incomplete':'complete'"
+          placement="bottom" matTooltip="Click for details" (click)="open(content)">
 
+          <ng-container>
+            {{formStatusItem.amountPassed}}% Complete
+          </ng-container>
+
+          <ng-template #content let-modal>
+            <div class="modal-header">
+              <h4 class="modal-title" id="modal-basic-title">Tests</h4>
+              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">&times;</span>
+              </button>
+
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="circle-progress">
+                  <circle-progress [percent]="formStatusItem.amountPassed" [radius]="100" [outerStrokeWidth]="16"
+                    [innerStrokeWidth]="8" [outerStrokeColor]="'#78C000'" [innerStrokeColor]="'#C7E596'" [animation]="true"
+                    [animationDuration]="300" class="circle"></circle-progress>
+                </div>
+                <div class="form-group error" *ngIf="formStatusItem.ERROR.length>0">
+                  <h4>Error</h4>
+                  <div *ngFor="let formItem of formStatusItem.ERROR">
+                    <p class="form-item"> {{formItem}}</p>
+                  </div>
+                </div>
+                <div class="form-group missing" *ngIf="formStatusItem.MISSING.length>0">
+                  <h4>Missing</h4>
+                  <div *ngFor="let formItem of formStatusItem.MISSING">
+                    <p class="form-item"> {{formItem}}</p>
+                  </div>
+                </div>
+                <div class="form-group missingOk" *ngIf="formStatusItem.MISSING_OK.length>0">
+                  <h4>Missing Ok</h4>
+                  <div *ngFor="let formItem of formStatusItem.MISSING_OK">
+                    <p class="form-item"> {{formItem}}</p>
+                  </div>
+                </div>
+                <div class="form-group ok" *ngIf="formStatusItem.OK.length>0">
+                  <h4>Ok</h4>
+                  <div *ngFor="let formItem of formStatusItem.OK">
+                    <p class="form-item"> {{formItem}}</p>
+                  </div>
+                </div>
+                <div class="form-group warning" *ngIf="formStatusItem.WARNING.length>0">
+                  <h4>Warning</h4>
+                  <div *ngFor="let formItem of formStatusItem.WARNING">
+                    <p class="form-item"> {{formItem}}</p>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </ng-template>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <footer>
+    <p>Version 2 | Updated: {{update| date: short}}</p>
+  </footer>
+</div>

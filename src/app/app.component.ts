@@ -58,7 +58,6 @@ export class AppComponent implements OnInit, AfterViewChecked {
 
   ngOnInit() {
     this.pagesStatus.getPageStatus().subscribe(data => {
-      console.log("data", data);
       this.rawData = data;
       this.regions = Object.keys(this.rawData);
       // console.log(this.regions);
@@ -133,7 +132,6 @@ export class AppComponent implements OnInit, AfterViewChecked {
       }
       region.formStatus = statuses;
       this.generatedData.push(region);
-      console.log(this.generatedData);
     }
   }
 }

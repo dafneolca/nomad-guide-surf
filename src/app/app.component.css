@@ -1,74 +1,114 @@
+.main {
+  margin-top: 40px;
+  background-color: #FDF0C4;
+  text-align: center;
+  color: black;
+  width: 800px;
+  margin: auto;
+}
+
+.heading {
+  padding: 30px 0px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("https://static.boredpanda.com/blog/wp-content/uploads/2014/07/shorebreak-wave-photography-clark-little-15.jpg") */
+}
+
+.heading,
+h1 {
+  font-size: 30px;
+  font-family: 'Permanent Marker', cursive;
+}
+
 .table {
   table-layout: fixed;
-  height: 30px;
+  height: 44px;
   margin: 0 auto;
+  font-size: 14px;
+}
+
+tr:nth-child(even) {
+  /* background: #F7A992; */
 }
 
 .table thead th {
-  border-bottom: 0px solid #dee2e6;
+  /* background-color: #F7A992; */
+  border-bottom: 0;
+  font-weight: 150;
 }
 
 .table td,
 .table th {
   padding: .75rem;
-  border-top: 0px solid #dee2e6;
-  height: 60px;
-  padding: .75rem;
-  vertical-align: top;
   border-top: 0;
-  width: 175px;
 }
 
-.form-group {
-  padding: 10px 30px 1px 30px;
+.region {
+  font-weight: 150;
 }
 
-.form-item {
-  border-bottom: #dee2e6 solid 0.5px;
-  padding-left: 30px;
+.table td {
+  vertical-align: middle;
 }
 
-.circle-progress {
+.table-rows-body {
+  height: 44px;
+}
+
+.table-entry {
+  display: flex;
+  align-items: center;
+}
+
+/* Align and size of the cell contents */
+.incomplete,
+.complete,
+.incomplete:hover,
+.complete:hover {
   display: flex;
   justify-content: center;
-}
-
-.circle {
-  justify-content: center;
-}
-
-.main {
-  text-align: center;
+  overflow: visible;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 300;
 }
 
 .incomplete {
-  color: orange;
+  /* overflow: hidden; */
+  /* color: #82A0C2; // REPLACE HERE */
+  /* width: 800px; */
 }
 
 .complete {
+  /* overflow: hidden; */
   color: limegreen;
 }
 
 .incomplete:hover {
   color: orange;
-  height: 60px;
+  height: 24px;
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+  /* overflow: hidden; */
 }
 
 .complete:hover {
   color: limegreen;
-  height: 60px;
+  height: 24px;
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+  /* overflow: hidden; */
 }
 
 .heading {
   padding: 50px 0px;
 }
 
+/* MODAL STYLES */
 .form-group {
   padding: 10px 30px 1px 30px;
 }
@@ -85,4 +125,14 @@
 
 .circle {
   justify-content: center;
+}
+
+
+
+footer {
+  padding: 30px 0px;
+}
+
+.footer-text {
+  font-weight: 100;
 }

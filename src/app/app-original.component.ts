@@ -57,8 +57,12 @@ export class AppComponent implements OnInit, AfterViewChecked {
   ngOnInit() {
     this.pagesStatus.getPageStatus().subscribe(data => {
       this.rawData = data;
+      // console.log('raw date');
+      // console.log(this.rawData);
       this.regions = Object.keys(this.rawData);
+      // console.log(this.regions);
       const regionData = Object.keys(data);
+      // console.log(this.regions);
       this.regions = regionData;
       this.modifyDataDisplay();
     });
@@ -100,17 +104,27 @@ export class AppComponent implements OnInit, AfterViewChecked {
 
             let statusOk = this.rawData[this.regions[k]].formStates[
               formNames[m]
-            ].Positive.length;
-
-            let statusNeutral = this.rawData[this.regions[k]].formStates[
+            ].OK.length;
+            let statusMissingOk = this.rawData[this.regions[k]].formStates[
               formNames[m]
-            ].Neutral.length;
-
-            let statusNegative = this.rawData[this.regions[k]].formStates[
+            ].MISSING_OK.length;
+            let statusMissing = this.rawData[this.regions[k]].formStates[
               formNames[m]
-            ].Negative.length;
+            ].MISSING.length;
+            let statusWarning = this.rawData[this.regions[k]].formStates[
+              formNames[m]
+            ].WARNING.length;
+            let statusError = this.rawData[this.regions[k]].formStates[
+              formNames[m]
+            ].ERROR.length;
             let percentagePassed: number =
-              (statusOk / (statusOk + statusNegative + statusNeutral)) * 100;
+              ((statusOk + statusMissingOk) /
+                (statusOk +
+                  statusMissingOk +
+                  statusMissing +
+                  statusWarning +
+                  statusError)) *
+              100;
             status.amountPassed = Math.round(percentagePassed);
           }
         }

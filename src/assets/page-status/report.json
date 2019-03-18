@@ -2,330 +2,94 @@
   "Morocco": {
     "locale": "Morocco",
     "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Surf Conditions": {
+        "Positive": ["Big Waves"],
+        "Neutral": ["Some dangerous breaks"],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Prices": {
+        "Positive": ["Not that expensive"],
+        "Neutral": ["Dawn patrol Simpo hack deep", "Frothy top jumbled."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Expat Life": {
+        "Positive": ["Very international"],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Cultural Activities": {
+        "Positive": ["Loads to see and loads of nature"],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Nightlife": {
+        "Positive": ["Quite calm"],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       }
     },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
   },
   "Sri Lanka": {
     "locale": "Sri Lanka",
     "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Surf Conditions": {
+        "Positive": ["Poor rippin water", "No kooks Craig Anderson pitter.", "Hack a thon don technique rock-n-roll."],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Prices": {
+        "Positive": ["Whippin da yams spray snap."],
+        "Neutral": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
+        "Negative": []
       },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Cultural Activities": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       }
     },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
   },
   "Hawaii": {
     "locale": "Hawaii",
     "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Surf Conditions": {
+        "Positive": ["Top turn wobbly.", "Speed hack hallow."],
+        "Neutral": ["Speed hack hallow."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Prices": {
+        "Positive": ["Lil ripper psych."],
+        "Neutral": ["Carve layback daggers Craig Anderson.", "Brutal pumping."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Expat Life": {
+        "Positive": ["Ripper snake longboard.", "Crusty shutting down stuffs the rail.", "Hang 5 late drop."],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Cultural Activities": {
+        "Positive": ["Smooth rail to rail."],
+        "Neutral": ["Fins hack a thon don making it rain."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
+      "Nightlife": {
+        "Positive": ["Taj Burrow hang 10 Pipeline precise."],
+        "Neutral": ["Taj Burrow hang 10 Pipeline precise."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
       }
     },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
-  },
-  "Canary Islands": {
-    "locale": "Canary Islands",
-    "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      }
-    },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
-  },
-  "Brazil": {
-    "locale": "Brazil",
-    "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      }
-    },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
-  },
-  "Tahiti": {
-    "locale": "Tahiti",
-    "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      }
-    },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
-  },
-  "Indonesia": {
-    "locale": "Indonesia",
-    "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      }
-    },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
-  },
-  "Mexico": {
-    "locale": "Mexico",
-    "formStates": {
-      "Surf": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Price_Level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "International_level": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Intellectual_Stimulation": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      },
-      "Fiesta": {
-        "OK": [],
-        "WARNING": [],
-        "MISSING": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
-        "ERROR": [],
-        "MISSING_OK": []
-      }
-    },
-    "forms": ["Surf", "Price_Level", "International_level", "Intellectual_Stimulation", "Fiesta"]
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
   }
-
 }

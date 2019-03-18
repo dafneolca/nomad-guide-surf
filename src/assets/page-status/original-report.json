@@ -1,0 +1,251 @@
+{
+  "Morocco": {
+    "locale": "Morocco",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": ["Big Waves"],
+        "Neutral": ["Some dangerous breaks"],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Prices": {
+        "Positive": ["Not that expensive"],
+        "Neutral": ["Dawn patrol Simpo hack deep", "Frothy top jumbled."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Expat Life": {
+        "Positive": ["Very international"],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Cultural Activities": {
+        "Positive": ["Loads to see and loads of nature"],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": ["Quite calm"],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  },
+  "Sri Lanka": {
+    "locale": "Sri Lanka",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": ["Poor rippin water", "No kooks Craig Anderson pitter.", "Hack a thon don technique rock-n-roll."],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Prices": {
+        "Positive": ["Whippin da yams spray snap."],
+        "Neutral": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"],
+        "Negative": []
+      },
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Cultural Activities": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  },
+  "Hawaii": {
+    "locale": "Hawaii",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": ["Top turn wobbly.", "Speed hack hallow."],
+        "Neutral": ["Speed hack hallow."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Prices": {
+        "Positive": [],
+        "Neutral": ["Carve layback daggers Craig Anderson.", "Brutal pumping."],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Cultural Activities": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  },
+  "Canary Islands": {
+    "locale": "Canary Islands",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": []
+      },
+      "Prices": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": []
+      },
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": []
+      },
+      "Cultural Activities": {
+        "Positive": ["all"],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  },
+  "Brazil": {
+    "locale": "Brazil",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Prices": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Cultural Activities": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  },
+  "Tahiti": {
+    "locale": "Tahiti",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Prices": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Cultural Activities": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  },
+  "Indonesia": {
+    "locale": "Indonesia",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Prices": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Cultural Activities": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  },
+  "Mexico": {
+    "locale": "Mexico",
+    "formStates": {
+      "Surf Conditions": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Prices": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Expat Life": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Cultural Activities": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      },
+      "Nightlife": {
+        "Positive": [],
+        "Neutral": [],
+        "Negative": ["No expected HTML5 Tag", "No expected HTML5 Footer Script section"]
+      }
+    },
+    "forms": ["Surf Conditions", "Prices", "Expat Life", "Cultural Activities", "Nightlife"]
+  }
+
+}

@@ -15,13 +15,15 @@
       <tr class="table-rows-body" *ngFor="let language of generatedData; let i = index">
         <td class="region">{{language.name}}</td>
         <td *ngFor="let formStatusItem of language.formStatus">
-          <div *ngIf="formStatusItem.amountPassed > 0" [ngClass]="formStatusItem.amountPassed < 100 ?'incomplete':'complete'"
-            placement="bottom" matTooltip="Click for details" (click)="open(content)">
+          <div *ngIf="formStatusItem.amountPassed > 0"
+            [ngClass]="formStatusItem.amountPassed < 100 ?'incomplete':'complete'" placement="bottom"
+            matTooltip="Click for details" (click)="open(content)">
             <div class="table-entry" *ngIf="formStatusItem">
               {{formStatusItem.amountPassed}}%
             </div>
           </div>
-          <ng-template #content let-modal>
+
+          <ng-template #content let-modal class="modal">
             <div class="modal-header">
               <h4 class="modal-title" id="modal-basic-title">Details</h4>
               <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
@@ -32,12 +34,14 @@
               <form>
                 <div class="circle-progress">
                   <circle-progress *ngIf="formStatusItem.amountPassed>0" [percent]="formStatusItem.amountPassed"
-                    [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="8" [outerStrokeColor]="'#78C000'"
-                    [innerStrokeColor]="'#C7E596'" [animation]="true" [animationDuration]="300" class="circle"></circle-progress>
+                    [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="8" [outerStrokeColor]="'#82a0c2'"
+                    [innerStrokeColor]="'#82a0c2'" [animation]="true" [animationDuration]="300" class="circle">
+                  </circle-progress>
 
                   <circle-progress *ngIf="formStatusItem.amountPassed===0" [percent]="formStatusItem.amountPassed"
                     [radius]="100" [outerStrokeWidth]="16" [innerStrokeWidth]="8" [outerStrokeColor]="'red'"
-                    [innerStrokeColor]="'pink'" [animation]="true" [animationDuration]="300" class="circle"></circle-progress>
+                    [innerStrokeColor]="'pink'" [animation]="true" [animationDuration]="300" class="circle">
+                  </circle-progress>
                 </div>
                 <div class="form-group ok" *ngIf="formStatusItem.Positive.length>0">
                   <h4>Positive</h4>

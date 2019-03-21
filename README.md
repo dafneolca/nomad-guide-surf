@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.1.0.
 
 
-## About this project
+## About this project
 
 Initially it started out as a status page I created for a client. The status page was initially supposed to visualize the completion state of each of the forms, per region.
 
@@ -15,8 +15,8 @@ This is an ongoing project that I am looking to constantly improve and grow - fo
 
 ## Preview
 
-<img src="./images/page.png">
-<img src="./images/modal.png">
+<img src="./images/page.png" width="400px">
+<img src="./images/modal.png" width="400px">
 
 ## Resources:
 

@@ -18,7 +18,7 @@ This is an ongoing project that I am looking to constantly improve and grow - fo
 <img src="./images/page.png" width="400px">
 <img src="./images/modal.png" width="400px">
 
-## Resources:
+## Resources
 
 I got the awesome surf Lorem ipsum from: http://surfipsum.com/
 
